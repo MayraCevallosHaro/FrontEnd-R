@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+        crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div >
+            <div class="col-md-6">
+                <h3>Ingrese los datos de su flor de Iris...</h3><br>
+                <form class="add-contact-form">
+                    <div class="form-group">
+                        <label for="Longitud de Sépalo">Longitud de Sépalo</label>
+                        <input type="text" class="form-control" id="longitud_sepalo">
+                    </div>
+                    <div class="form-group">
+                        <label for="Ancho de Sépalo">Ancho de Sépalo</label>
+                        <input type="text" class="form-control" id="ancho_sepalo">
+                    </div>
+                    <div class="form-group">
+                        <label for="Longitud de Pétalo">Longitud de Pétalo</label>
+                        <input type="text" class="form-control" id="longitud_petalo">
+                    </div>
+                    <div class="form-group">
+                        <label for="Ancho de Pétalo">Ancho de Pétalo</label>
+                        <input type="text" class="form-control" id="ancho_petalo">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Consultar</button>
+                    <br>
+                    <div class="form-group">
+                        <h5 id="res">..</h5>
+                    </div>
+                </form>
+            </div>
+        </div><br>
+        
+        
+    </div>
+    <script src="./prediccion.js"></script>
+</body>
+</html>
